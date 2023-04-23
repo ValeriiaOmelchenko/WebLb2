@@ -12,7 +12,7 @@ for(let i = 0; i < buttons.length; i++) {
 
             case "=":
                 try {
-                    result.innerText = eval(result.innerText);
+                    result.innerText = eval(result.innerText); // функція eval дозволяє виконувати рядок записаний в дужках як код
                 } catch {
                     result.innerText = "Error";
                 }
